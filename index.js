@@ -7,7 +7,7 @@ function findMatching(d, s) {
 
 function findMatching(d, s) {
   return d.filter(z=>z==s);
-  colsole.log.localeCompare(s, 'en', {sensitivity: 'base'}));
+  colsole.log(z.localeCompare(s, 'en', {sensitivity: 'base'}));
 }
 
 
