@@ -10,8 +10,6 @@ function findMatching(d, s) {
 }
 
 
-/*
 function fuzzyMatch(d, s) {
-  console.log(d.localeCompare(s, 'en', {sensitivity: 'base'}));
+  
 }
-*/
