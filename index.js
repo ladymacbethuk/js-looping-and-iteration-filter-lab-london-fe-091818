@@ -3,6 +3,8 @@ function findMatching(d, s) {
   return d.filter(z=>z==s);
 }
 
+
+
 function fuzzyMatch(d, s) {
   console.log(d.localeCompare(s, 'en', {sensitivity: 'base'}));
 }
