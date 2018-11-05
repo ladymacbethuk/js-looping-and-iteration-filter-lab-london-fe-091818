@@ -11,5 +11,5 @@ function findMatching(d, s) {
 
 
 function fuzzyMatch(d, s) {
-  return d.filter()
+  return d.filter(z=>z);
 }
