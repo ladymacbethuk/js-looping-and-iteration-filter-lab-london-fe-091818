@@ -6,7 +6,8 @@ function findMatching(d, s) {
 */
 
 function findMatching(d, s) {
-  return d.filter(z=>z.localeCompare(s, 'en', {sensitivity: 'base'}));
+  return d.filter(z=>z==s);
+  colsole.log.localeCompare(s, 'en', {sensitivity: 'base'}));
 }
 
 
