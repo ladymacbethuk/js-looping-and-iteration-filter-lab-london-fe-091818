@@ -6,7 +6,7 @@ function findMatching(d, s) {
 */
 
 function findMatching(d, s) {
-  console.log (z.localeCompare(s, 'en', {sensitivity: 'base'}));
+  console.log (d.localeCompare(s, 'en', {sensitivity: 'base'}));
   return d.filter(z=>z==s);
 }
 
