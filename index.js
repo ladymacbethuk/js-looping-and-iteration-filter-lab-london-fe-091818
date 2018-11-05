@@ -6,9 +6,8 @@ function findMatching(d, s) {
 */
 
 function findMatching(d, s) {
-  return d.filter(z=>z==s);
+  return d.filter(z=>z.toLowerCase().includes(term.toLowerCase()))
 }
- console.log (z.localeCompare(s, 'en', {sensitivity: 'base'}));
 
 
 /*
