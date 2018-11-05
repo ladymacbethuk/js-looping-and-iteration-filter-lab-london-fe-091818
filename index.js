@@ -16,7 +16,7 @@ function fuzzyMatch(d, s) {
 
 /*
 function fuzzyMatch(d, s) {
-  return d.filter(z=>z.startsWith(s));
+  return d.filter(z=>z.toLowerCase().startsWith(s.toLowerCase()));
 }
 */
 
