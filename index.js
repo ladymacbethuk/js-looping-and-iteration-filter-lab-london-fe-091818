@@ -6,7 +6,7 @@ function findMatching(d, s) {
 */
 
 function findMatching(d, s) {
-  return d.filter(z=>z.toLowerCase().includes(term.toLowerCase()))
+  return d.filter(z=>z.toLowerCase() == s.toLowerCase())
 }
 
 
