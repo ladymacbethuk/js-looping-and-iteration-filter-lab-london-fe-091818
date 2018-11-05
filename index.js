@@ -21,5 +21,5 @@ function fuzzyMatch(d, s) {
 */
 
 function matchName(d, s) {
-  return d.filter()
+  return d.filter(z=>z.name==s)
 }
